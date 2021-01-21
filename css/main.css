@@ -1,0 +1,239 @@
+/*Start Global Rules
+*******************************/
+body {
+  font-size: 14px;
+  line-height: normal;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+body, p {
+  color: rgb(159, 159, 159);
+}
+h1, h2, h3, h4, h5, body, p {
+  font-family: 'Poppins', sans-serif;
+}
+/*Start Page Head
+*******************************/
+header{
+  background-image: url("../images/slider_img.png");
+  background-size: cover;
+  background-position: top;
+  height: 870px;
+}
+header nav{
+  background-color: rgba(38, 56, 133, .2);
+}
+header nav .navbar-nav .nav-item .nav-link{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+}
+header section h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+header section p{
+  color: white;
+  font-size: 21px;
+  margin: 5px auto;
+}
+header section a{
+    width: 265px;
+    height: 65px;
+    background: rgb(14, 36, 203);
+    color: rgb(255 ,255, 255);
+    text-align: center;
+    line-height: 65px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 45px auto 0;
+    transition: background-color .2s linear;
+}
+header section a:hover{
+  background-color: rgba(14, 36, 203, .8);
+  text-decoration: none;
+  color:white;
+}
+@media screen and (max-width: 767.99px){
+  header section h1{
+    font-size: 34px;
+  }
+  header section p{
+    font-size: 18px;
+    text-align: center;
+  }
+}
+/*Start About
+*******************************/
+.about{
+  background: url('../images/dottet_bg.png');
+}
+.about h1{
+  color: black;
+  font-weight: 600;
+  font-size: 50px;
+}
+.about p{
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 28px;
+  color: rgb(37, 38, 38);
+  font-weight: 300;
+  margin-top: 5px;
+}
+/*Start Our-Courses
+*******************************/
+.our-courses p{
+  font-size: 19px;
+}
+.our-courses h2{
+  color: black;
+}
+.our-courses h2:first-of-type{
+  font-size: 50px;
+}
+.our-courses .btn{
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 15px !important;
+}
+/*Start Our-Coaching-Time
+*******************************/
+.our-coaching-time{
+  position: relative;
+}
+.our-coaching-time .row{
+  background-color: rgba(255, 255, 255, .8);
+  padding: 20px;
+}
+.our-coaching-time h2:first-of-type{
+  position: absolute;
+  top: -70px;
+  left: -5px;
+}
+.our-coaching-time h2{
+  font-size: 50px;
+  line-height: 55px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+.our-coaching-time ul{
+  font-size: 30px;
+  list-style: none;
+  float: left;
+}
+.our-coaching-time ul li{
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  line-height: 60px;
+}
+.our-coaching-time {
+  background-image: url('../images/cours_bg.jpg');
+  background-size: cover;
+  background-position: top;
+}
+@media screen and (max-width: 575.99px){
+  .our-coaching-time h2{
+    font-size: 32px;
+  }
+}
+/*Start Our-Success-Stories
+*******************************/
+.success-stories h2{
+  font-size: 50px;
+  line-height: 55px;
+  margin-bottom: 20px;
+  color: rgb(3 1 1);
+}
+.success-stories h3{
+  line-height: 150%;
+  font-weight: 400;
+}
+.success-stories h4{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: rgb(17 20 40);
+}
+.success-stories p{
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: normal;
+  color: rgb(68 68 68);
+  font-weight: 300;
+}
+@media screen and (max-width: 575.99px){
+  .success-stories h2{
+    font-size: 32px;
+  }
+}
+/*Start Subscribe
+*******************************/
+.subscribe{
+  background-image: url("../images/blue_bg.png");
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: 300px;
+  padding: 100px 0 0;
+  color:white;
+}
+.subscribe div p{
+  color:white;
+  font-size: 17px;
+}
+.subscribe form input[id='email']{
+  border-radius:30px;
+  border: none;
+  outline: none;
+  border-right:none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 18px;
+  height: 50px;
+  padding:9px;
+  margin-right: 0;
+}
+.subscribe form input[type='submit']{
+  background: rgb(240, 96, 8);
+  border: none;
+  outline:none;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  font-size: 15px;
+  padding-right: 20px;
+  padding-top: 2px;
+}
+/*Start Footer
+*******************************/
+footer{
+  background-color:rgb(58, 58, 58);
+}
+footer .container{
+  padding: 90px 0;
+}
+footer .container ul{
+  list-style: none;
+}
+footer .container ul li{
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: white;
+}
+footer .container ul li:first-child{
+  font-size: 22px;
+  color: rgba(255, 255, 255);
+}
+footer p{
+  background-color: rgb(255 255 255);
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 20px;
+}
